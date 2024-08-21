@@ -1,0 +1,23 @@
+# Secrets/Env
+.env
+keys/*
+
+# Project
+data_queue
+logs
+network
+
+# Misc
+*.pyc
+.DS_Store
+*/.DS_Store
+**/*/.DS_Store
+
+# Terraform
+**/.terraform
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/.terraform
+**/.terraform.lock.hcl
+**/.terraform.tfstate.lock.info
+**/secrets.tfvars
